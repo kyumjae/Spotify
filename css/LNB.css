@@ -1,0 +1,14 @@
+.lnb {
+  display: fixed;
+  width: 200px;
+  height: 100%;
+  background-color: #191919;
+}
+
+.lnb-topMenu img {
+  margin: 17px 0 26px 25px;
+  width: 24px;
+  height: auto;
+}
+
+.lnb-wrap;
