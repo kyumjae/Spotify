@@ -1,9 +1,16 @@
 html,
 body {
+  display: flex;
+  flex-wrap: wrap;
   width: 1708px;
   height: 936px;
   background-color: #1e1e1e;
   color: white;
   font-family: "Poppins", sans-serif;
   /* font-family: "montserrat", sans-serif; */
+  /* overflow: hidden; */
+}
+
+.contents {
+  padding-top: 115px;
 }

@@ -1,3 +1,80 @@
 .rnb {
   display: flex;
+  flex-direction: column;
+  width: calc(100%-256px);
+  z-index: 3;
+}
+
+.rnb-topMenu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rnb-topMenu img {
+  width: 45px;
+  height: 31px;
+}
+
+.rnb-topMenu a:hover {
+  background-color: #545454;
+}
+
+.rnb-topMenu a:active {
+  background-color: #333333;
+}
+
+.rnb-topMenu a:last-child:hover {
+  background-color: #ca2432;
+}
+
+.rnb-topMenu a:last-child:active {
+  background-color: #911c27;
+}
+
+.rnb-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 256px;
+  height: 100%;
+}
+
+.rnb-txt {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 47px;
+  color: #f3f3f3;
+}
+
+.friends_btn {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  width: 160px;
+  height: 32px;
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+  color: #f3f3f3;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.rnb-wrap a:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.rnb-wrap a:active {
+  transform: scale(1);
+  border: 1px solid rgba(244, 244, 244, 0.6);
+  color: rgba(244, 244, 244, 0.6);
 }

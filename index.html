@@ -12,100 +12,115 @@
   <body>
     <!-- LNB -->
     <div class="lnb">
-      <a href="#" class="lnb-topMenu"><img src="images/menu.png" alt=""/></a>
-      <div class="lnb-wrap">
-        <div class="lnb-menu">
-          <input id="main-tab1" type="radio" name="main-tabs" /><img
-            src="images/home.png"
-            alt=""
-          /><label for="main-tab1">Home</label>
+      <div class="lnb_column">
+        <div class="col-1">
+          <a href="#" class="lnb-topMenu"
+            ><img src="images/menu.png" alt=""
+          /></a>
+          <div class="lnb-wrap">
+            <div class="lnb-menu">
+              <input id="main-tab1" type="radio" name="tabs" checked /><label
+                for="main-tab1"
+                ><img src="images/home.png" alt="Home" />Home</label
+              >
+            </div>
+            <div class="lnb-menu">
+              <input id="main-tab2" type="radio" name="tabs" /><label
+                for="main-tab2"
+                ><img src="images/browse.png" alt="Browse" />Browse</label
+              >
+            </div>
+            <span class="menu-title">YOUR LIBRARY</span>
+            <div class="lnb-menu">
+              <input type="radio" name="tabs" id="menu-tab1" /><label
+                for="menu-tab1"
+                >Made For You</label
+              >
+            </div>
+            <div class="lnb-menu">
+              <input type="radio" name="tabs" id="menu-tab2" /><label
+                for="menu-tab2"
+                >Recently Played</label
+              >
+            </div>
+            <div class="lnb-menu">
+              <input type="radio" name="tabs" id="menu-tab3" /><label
+                for="menu-tab3"
+                >Favorite Songs</label
+              >
+            </div>
+            <div class="lnb-menu">
+              <input type="radio" name="tabs" id="menu-tab4" /><label
+                for="menu-tab4"
+                >Albums</label
+              >
+            </div>
+            <div class="lnb-menu">
+              <input type="radio" name="tabs" id="menu-tab5" /><label
+                for="menu-tab5"
+                >Artists</label
+              >
+            </div>
+            <div class="lnb-menu">
+              <input type="radio" name="tabs" id="menu-tab6" /><label
+                for="menu-tab6"
+                >Podcasts</label
+              >
+            </div>
+            <span class="menu-title">PLAYLISTS</span>
+          </div>
         </div>
-        <div class="lnb-menu">
-          <input id="main-tab2" type="radio" name="main-tabs" /><img
-            src="images/browse.png"
-            alt=""
-          /><label for="main-tab2">Browse</label>
-        </div>
-        <span class="menu-title">YOUR LIBRARY</span>
-        <div class="lnb-menu">
-          <input type="radio" name="menu-tabs" id="menu-tab1" /><label
-            for="menu-tab1"
-            >Made For You</label
+        <div class="col-2">
+          <a href="#"
+            ><img src="images/plus.png" alt="" /><span>New Playlist</span></a
           >
         </div>
-        <div class="lnb-menu">
-          <input type="radio" name="menu-tabs" id="menu-tab2" /><label
-            for="menu-tab2"
-            >Recently Played</label
-          >
-        </div>
-        <div class="lnb-menu">
-          <input type="radio" name="menu-tabs" id="menu-tab3" /><label
-            for="menu-tab3"
-            >Favorite Songs</label
-          >
-        </div>
-        <div class="lnb-menu">
-          <input type="radio" name="menu-tabs" id="menu-tab4" /><label
-            for="menu-tab4"
-            >Albums</label
-          >
-        </div>
-        <div class="lnb-menu">
-          <input type="radio" name="menu-tabs" id="menu-tab5" /><label
-            for="menu-tab5"
-            >Artists</label
-          >
-        </div>
-        <div class="lnb-menu">
-          <input type="radio" name="menu-tabs" id="menu-tab6" /><label
-            for="menu-tab6"
-            >Podcasts</label
-          >
-        </div>
-        <span class="menu-title">PLAYLISTS</span>
       </div>
-      <a href="#" class="new_btn"
-        ><img src="images/plus.png" alt="" /><span>New Playlist</span></a
-      >
     </div>
 
     <!-- GNB -->
     <header class="top-header">
       <div class="gnb-wrap">
         <div class="gnb-top">
-          <div class="gnb-left"></div>
-          <div class="gnb-menu">
-            <a href="#" class="back"><i class="fa fa-chevron-left"></i></a>
-            <a href="#" class="forward"><i class="fa fa-chevron-right"></i></a>
-          </div>
-          <div class="gnb-search">
-            <i class="fa fa-search"></i>
-            <input type="text" placeholder="Search" />
+          <div class="gnb-left">
+            <div class="gnb-menu">
+              <a href="#"><img src="images/back.png" alt="back"/></a>
+              <a href="#"><img src="images/next.png" alt="next"/></a>
+            </div>
+            <div class="gnb-search">
+              <img src="images/search.png" alt="search" />
+              <input type="text" placeholder="Search" />
+            </div>
           </div>
           <div class="gnb-right">
             <a href="#" class="upgrade">UPGRADE</a>
             <div class="profile">
               <a href="#"
-                ><i class="far fa-user-circle"></i><span>JEONGSEON</span></a
+                ><img src="images/profile.png" alt="profile" /><span
+                  >JEONGSEON</span
+                ></a
               >
             </div>
-            <a href="#" class="menu-dwn"><i class="fa fa-chevron-down"></i></a>
+            <a href="#" class="menu-dwn"
+              ><img src="images/down.png" alt="down"
+            /></a>
           </div>
         </div>
-        <h2>Home</h2>
+        <div class="gnb-title"><h2>Home</h2></div>
       </div>
     </header>
 
     <!-- RNB -->
     <div class="rnb">
       <div class="rnb-topMenu">
-        <a href="#"><img src="images/win_min.png" alt=""/></a>
-        <a href="#"><img src="images/win_max.png" alt=""/></a>
-        <a href="#"><img src="images/win_close.png" alt=""/></a>
+        <a href="#"><img src="images/win_min.png" alt="minimum"/></a>
+        <a href="#"><img src="images/win_max.png" alt="maximum"/></a>
+        <a href="#" class="win_close"
+          ><img src="images/win_close.png" alt="close"
+        /></a>
       </div>
       <div class="rnb-wrap">
-        <span>See what your frineds are playing</span>
+        <span class="rnb-txt">See what your frineds are playing</span>
         <a href="#" class="friends_btn"><span>FIND FRIENDS</span></a>
       </div>
     </div>
@@ -115,7 +130,10 @@
       <div class="contents-wrap">
         <div class="con_title">
           <h3>Get moving</h3>
-          <i class="fa fa-chevron-left"></i> <i class="fa fa-chevron-right"></i>
+          <img src="images/back.png" alt="back" /><img
+            src="images/next.png"
+            alt="next"
+          />
         </div>
         <div class="con_content">
           <div class="albums">
@@ -184,8 +202,10 @@
           <a href="#" class="playBtn"
             ><img src="images/play_play.png" alt="play"
           /></a>
-          <a href="#"><img src="images/play_next.png" alt="next"/></a>
-          <a href="#"><img src="images/play_repeat.png" alt="repeat"/></a>
+          <div class="page_con">
+            <a href="#"><img src="images/play_next.png" alt="next"/></a>
+            <a href="#"><img src="images/play_repeat.png" alt="repeat"/></a>
+          </div>
         </div>
         <div class="play_slider"><span>0:09</span><span>4:05</span></div>
       </div>
