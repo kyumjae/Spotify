@@ -3,10 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-    />
+
     <title>Spotify</title>
   </head>
   <body>
@@ -110,37 +107,39 @@
       </div>
     </header>
 
-    <!-- RNB -->
-    <div class="rnb">
-      <div class="rnb-topMenu">
-        <a href="#"><img src="images/win_min.png" alt="minimum"/></a>
-        <a href="#"><img src="images/win_max.png" alt="maximum"/></a>
-        <a href="#" class="win_close"
-          ><img src="images/win_close.png" alt="close"
-        /></a>
-      </div>
-      <div class="rnb-wrap">
-        <span class="rnb-txt">See what your frineds are playing</span>
-        <a href="#" class="friends_btn"><span>FIND FRIENDS</span></a>
-      </div>
-    </div>
-
     <!-- CONTENTS -->
     <main class="contents">
       <div class="contents-wrap">
         <div class="con_title">
-          <h3>Get moving</h3>
-          <img src="images/back.png" alt="back" /><img
-            src="images/next.png"
-            alt="next"
-          />
+          <h3>Bring on the week</h3>
+          <div class="arrow">
+            <img src="images/back.png" alt="back" /><img
+              src="images/next.png"
+              alt="next"
+            />
+          </div>
         </div>
         <div class="con_content">
           <div class="albums">
-            <img
-              src="https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/99/d0/6f/99d06f9e-eecd-addf-46fa-455bc2a0850f/dj.mggvbaou.jpg/600x600bf.png"
-              alt="Pink Floyd"
-            />
+            <div class="album_cover">
+              <img
+                src="https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/99/d0/6f/99d06f9e-eecd-addf-46fa-455bc2a0850f/dj.mggvbaou.jpg/600x600bf.png"
+                alt="Pink Floyd"
+              />
+
+              <li class="album_cover_hov">
+                <ul>
+                  <img src="images/like.png" alt="" />
+                </ul>
+                <ul>
+                  <img src="images/play_play.png" alt="" />
+                </ul>
+                <ul>
+                  <img src="images/menu.png" alt="" />
+                </ul>
+              </li>
+            </div>
+
             <h4 class="album_title">Today's Top Hits</h4>
             <h5 class="album_info">The Pink Floyd's top of the Hottest 50.</h5>
             <h6 class="album_follower">22,825,227 FOLLOWERS</h6>
@@ -160,7 +159,7 @@
           <div class="albums">
             <img
               src="https://townsendfilms.files.wordpress.com/2017/09/tdcc.jpg?w=1000&h=1000&crop=1"
-              alt=""
+              alt="tdcc"
             />
             <h4 class="album_title">TWO DOOR CINEMA CLUB</h4>
             <h5 class="album_info">
@@ -170,18 +169,89 @@
           </div>
           <div class="albums">
             <img
-              src="https://media.pitchfork.com/photos/5bd0a38bb6b4f21eb1010e4a/1:1/w_320/BALLADS.jpg"
-              alt=""
+              src="https://i.scdn.co/image/a5fdc32778ff542e372e305e9d8c4ea36ee4157c"
+              alt="joji"
             />
             <h4 class="album_title">undercurrents</h4>
             <h5 class="album_info">
               The best indie gems. Song from Joji, Filthy Frank.
             </h5>
-            <h6 class="album_follower">117,048 Followers</h6>
+            <h6 class="album_follower">117,048 FOLLOWERS</h6>
+          </div>
+        </div>
+      </div>
+      <div class="contents-wrap">
+        <div class="con_title-i">
+          <h3>Focus</h3>
+          <div class="con_title-info">
+            <h5>Music to help you concentrate.</h5>
+            <div class="arrow">
+              <img src="images/back.png" alt="back" /><img
+                src="images/next.png"
+                alt="next"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="con_content">
+          <div class="albums">
+            <img
+              src="https://pbs.twimg.com/media/DferthOU0AE_RL_.jpg"
+              alt="ADOY"
+            />
+            <h4 class="album_title">Hottest Rookie</h4>
+            <h5 class="album_info">Introduce Hottest Rookie, ADOY.</h5>
+            <h6 class="album_follower">22,825,227 FOLLOWERS</h6>
+          </div>
+          <div class="albums">
+            <img
+              src="http://www.phaidon.com/resource/arcadefirejreverythingnow.jpg"
+              alt="Arcade Fire"
+            />
+            <h4 class="album_title">New Release</h4>
+            <h5 class="album_info">
+              Keep calm and focus with New music from arcade fire.
+            </h5>
+            <h6 class="album_follower">52,320,797 FOLLOWERS</h6>
+          </div>
+          <div class="albums">
+            <img
+              src="http://www.kawaiikakkoiisugoi.com/wp-content/uploads/2014/11/jacket_007.jpg"
+              alt="lamp"
+            />
+            <h4 class="album_title">Lamp</h4>
+            <h5 class="album_info">
+              Introduce Lamp, an indie pop trio from japan.
+            </h5>
+            <h6 class="album_follower">11,371,528 FOLLOWERS</h6>
+          </div>
+          <div class="albums">
+            <img
+              src="https://66.media.tumblr.com/a202f9c2bacdc90912f9dffc945b95a5/tumblr_o08pruy7Hk1uh0rt1o1_540.jpg"
+              alt="1975"
+            />
+            <h4 class="album_title">1975</h4>
+            <h5 class="album_info">Sing along and dance with me.</h5>
+            <h6 class="album_follower">117,258,048 FOLLOWERS</h6>
           </div>
         </div>
       </div>
     </main>
+
+    <!-- RNB -->
+    <div class="rnb">
+      <div class="rnb-topMenu">
+        <a href="#"><img src="images/win_min.png" alt="minimum"/></a>
+        <a href="#"><img src="images/win_max.png" alt="maximum"/></a>
+        <a href="#" class="win_close"
+          ><img src="images/win_close.png" alt="close"
+        /></a>
+      </div>
+      <div class="rnb-wrap">
+        <span class="rnb-txt">See what your frineds are playing</span>
+        <a href="#" class="friends_btn"><span>FIND FRIENDS</span></a>
+      </div>
+    </div>
 
     <!-- PLAYER -->
     <footer class="music_player">
@@ -193,26 +263,49 @@
           <span class="music_title">Grace</span>
           <span class="singer">ADOY</span>
         </div>
-        <i class="far fa-heart"></i> <i class="fas fa-heart"></i>
+        <div class="like">
+          <img src="images/like.png" alt="like" />
+          <img src="images/like_fill.png" alt="liked" />
+        </div>
       </div>
       <div class="play-wrap">
         <div class="play_control">
-          <a href="#"><img src="images/play_shuffle.png" alt="shuffle"/></a>
+          <div class="shuffle">
+            <a href="#"
+              ><img src="images/play_shuffle.png" alt="shuffle"/>
+
+              <img src="images/play_shuffle_pre.png" alt="shuffle"
+            /></a>
+          </div>
           <a href="#"><img src="images/play_pre.png" alt="previous"/></a>
-          <a href="#" class="playBtn"
-            ><img src="images/play_play.png" alt="play"
-          /></a>
-          <div class="page_con">
-            <a href="#"><img src="images/play_next.png" alt="next"/></a>
-            <a href="#"><img src="images/play_repeat.png" alt="repeat"/></a>
+          <div class="playBtn">
+            <a href="#">
+              <img src="images/play_play.png" alt="play"/>
+              <img src="images/play_pause.png" alt="pause"
+            /></a>
+          </div>
+          <a href="#"><img src="images/play_next.png" alt="next"/></a>
+          <div class="repeat">
+            <a href="#"
+              ><img src="images/play_repeat.png" alt="repeat"/>
+              <img src="images/play_repeat_pre.png" alt="repeat"
+            /></a>
           </div>
         </div>
-        <div class="play_slider"><span>0:09</span><span>4:05</span></div>
+        <div class="play_slider">
+          <span>0:09</span>
+          <div class="slider">
+            <div class="slider_sec"></div>
+            <div class="play_sec"></div>
+          </div>
+          <span>4:05</span>
+        </div>
       </div>
       <div class="play_right">
         <a href="#"><img src="images/play_list.png" alt="plyalist"/></a>
         <a href="#"><img src="images/play_device.png" alt="device"/></a>
-        <a href="#"><img src="images/play_volume.png" alt="volume"/></a>
+        <a href="#"><img src="images/play_volume.png" alt="volume" /> </a>
+        <div class="vol_con"></div>
       </div>
     </footer>
   </body>

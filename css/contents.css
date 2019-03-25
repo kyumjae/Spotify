@@ -1,13 +1,120 @@
 .contents {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 1252px;
+  height: 733px;
+  margin-top: -821px;
+  margin-left: 200px;
+  overflow-y: scroll;
 }
 
 .contents-wrap {
-  flex: 1;
-  overflow-y: scroll;
+  width: 100%;
+  height: 100vh;
+  padding: 0 32px 30px 32px;
+}
+
+.con_title {
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid #2c2c2c;
+}
+
+h3 {
+  padding-top: 30px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.con_title-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #2c2c2c;
+}
+
+.arrow img {
+  width: 16px;
+  margin: 0 4px 0 14px;
+  opacity: 0.7;
+}
+.arrow img:first-child {
+  opacity: 0.3;
+}
+
+.arrow img:last-child:hover {
+  opacity: 1;
+}
+
+.arrow img:last-child:active {
+  opacity: 0.4;
+}
+
+.con_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.albums {
+  display: absolute;
+  width: 278px;
 }
 
 .albums img {
   width: 278px;
+  cursor: pointer;
+  margin-top: 16px;
+  margin-bottom: 14px;
+}
+
+.album_cover img {
+  width: 278px;
+}
+
+.album_cover_hov {
+  width: 278px;
+  height: 278px;
+  display: none;
+}
+.album_cover:hover > .album_cover_hov {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 16px;
+  margin-top: -294px;
+  margin-bottom: 16px;
+}
+
+.album_cover_hov img {
+  width: 28px;
+  opacity: 0.8;
+}
+
+.album_cover_hov ul:nth-child(2) > img {
+  width: 80px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+h5 {
+  margin: 8px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #afafaf;
+}
+
+h6 {
+  font-size: 13px;
+  color: #afafaf;
+  letter-spacing: 2px;
 }

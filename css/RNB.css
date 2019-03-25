@@ -1,8 +1,9 @@
 .rnb {
   display: flex;
   flex-direction: column;
-  width: calc(100%-256px);
-  z-index: 3;
+  width: 256px;
+  height: 848px;
+  margin-top: -936px;
 }
 
 .rnb-topMenu {
